@@ -13,7 +13,7 @@ interface LoginProps {
 
 export const Login: React.FC<LoginProps> = ({ navigation }) => {
   const handleSubmit = (): void => {
-    console.log("submit");
+    navigation.navigate("Home");
   };
 
   return (
